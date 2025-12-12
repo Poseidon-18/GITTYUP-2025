@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagri Tanmay - Computer Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#"><span class="accent">></span> Tanmay_Bagri<span class="blinking-cursor">_</span></a>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="#home"><span class="accent">></span> home</a></li>
+                <li><a href="#about"><span class="accent">></span> about</a></li>
+                <li><a href="#skills"><span class="accent">></span> skills</a></li>
+                <li><a href="#projects"><span class="accent">></span> projects</a></li>
+                <li><a href="#contact"><span class="accent">></span> contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="accent">$</span> echo "Hello, World!"<br>
+                    <span class="accent">></span> I'm <span class="highlight">Bagri_Tanmay</span>
+                </h1>
+                <h2 class="hero-subtitle">Systems Engineer & Computer Science Student</h2>
+                <p class="hero-tagline">Building efficient systems that solve real-world problems</p>
+                <div class="hero-location">
+                    <i class="fas fa-map-marker-alt accent"></i>
+                    <span>India i.e Bharat</span>
+                </div>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">
+                        <span class="accent">></span> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="accent">></span> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="close"></span>
+                        <span class="minimize"></span>
+                        <span class="maximize"></span>
+                    </div>
+                    <div class="terminal-title">terminal — </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="terminal-prompt">tanmay@portfolio:~$</span> whoami</p>
+                    <p>Bagri_Tanmay - Systems Engineer & CS Student</p>
+                    <p><span class="terminal-prompt">tanmay@portfolio:~$</span> cat education.txt</p>
+                    <p>Stanford University - B.S. Computer Science</p>
+                    <p>Expected Graduation: May 2025</p>
+                    <p><span class="terminal-prompt">tanmay@portfolio:~$</span> <span class="blinking-cursor">_</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="accent">></span> about_me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at Stanford University passionate about building scalable systems and efficient algorithms. My focus is on backend engineering, distributed systems, and cybersecurity.</p>
+                    <p>When I'm not coding, you can find me contributing to open-source projects, participating in CTF competitions, or exploring the intersection of technology and social impact.</p>
+                    
+                    <div class="education">
+                        <h3><span class="accent">></span> education</h3>
+                        <div class="edu-item">
+                            <h4>Stanford University</h4>
+                            <p class="edu-degree">Bachelor of Science in Computer Science</p>
+                            <p class="edu-year">Expected Graduation: 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="interests">
+                        <h3><span class="accent">></span> interests</h3>
+                        <div class="interest-tags">
+                            <span class="tag">Open Source</span>
+                            <span class="tag">CTF Competitions</span>
+                            <span class="tag">Linux Systems</span>
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Mountain Biking</span>
+                            <span class="tag">Photography</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="code-snippet">
+                        <pre><code>// About Bagri_Tanmay
+const developer = {
+  languages: ["Python", "Java", "C++", "Go", "JavaScript"],
+  frameworks: ["Django", "React", "Node.js", "Spring Boot"],
+  databases: ["PostgreSQL", "MongoDB", "Redis"],
+  tools: ["Docker", "Kubernetes", "AWS", "Git", "Linux"],
+  interests: ["Distributed Systems", 
+              "Cybersecurity", 
+              "Cloud Architecture"],
+  currentlyLearning: ["Rust", "Kafka"]
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="accent">></span> technical_skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code accent"></i> Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span></li>
+                        <li>Java <span class="skill-bar"><span class="skill-level" style="width: 90%"></span></span></li>
+                        <li>C++ <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span></li>
+                        <li>Go <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span></li>
+                        <li>JavaScript <span class="skill-bar"><span class="skill-level" style="width: 75%"></span></span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools accent"></i> Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Docker <span class="skill-bar"><span class="skill-level" style="width: 90%"></span></span></li>
+                        <li>Kubernetes <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span></li>
+                        <li>AWS <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span></li>
+                        <li>Linux <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span></li>
+                        <li>Git <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain accent"></i> Core Concepts</h3>
+                    <ul class="skill-list">
+                        <li>Data Structures & Algorithms <span class="skill-bar"><span class="skill-level" style="width: 95%"></span></span></li>
+                        <li>Distributed Systems <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span></li>
+                        <li>Database Design <span class="skill-bar"><span class="skill-level" style="width: 90%"></span></span></li>
+                        <li>Cybersecurity <span class="skill-bar"><span class="skill-level" style="width: 80%"></span></span></li>
+                        <li>System Architecture <span class="skill-bar"><span class="skill-level" style="width: 85%"></span></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="accent">></span> featured_projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Distributed File System</h3>
+                        <div class="project-tech">
+                            <span>Go</span>
+                            <span>Docker</span>
+                            <span>gRPC</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">A fault-tolerant distributed file system with replication and consistency guarantees. Implements RAFT consensus algorithm for coordination between nodes.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Network Intrusion Detection</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Scapy</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">ML-powered network intrusion detection system that analyzes packet traffic in real-time to identify and alert on suspicious activities with 98% accuracy.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Paper</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cloud Cost Optimizer</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>AWS</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">Dashboard for monitoring and optimizing cloud infrastructure costs across AWS, GCP, and Azure. Identifies underutilized resources and suggests optimizations.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section dark">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="accent">></span> get_in_touch
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just chatting about technology.</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:tanmay.chen@example.com" class="contact-item">
+                            <i class="fas fa-envelope accent"></i>
+                            <span>tanmay.chen@example.com</span>
+                        </a>
+                        <a href="https://github.com/tanmaychen" class="contact-item" target="_blank">
+                            <i class="fab fa-github accent"></i>
+                            <span>github.com/tanmaychen</span>
+                        </a>
+                        <a href="https://linkedin.com/in/tanmaychen" class="contact-item" target="_blank">
+                            <i class="fab fa-linkedin accent"></i>
+                            <span>linkedin.com/in/tanmaychen</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-note">
+                        <p><span class="accent">Note:</span> I typically respond within 24 hours.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="accent">></span> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="accent">></span> tanmay_CHEN
+                </div>
+                <p class="footer-tagline">Building the future, one line of code at a time.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dev"></i></a>
+                </div>
+                <p class="footer-copyright">
+                    <span class="accent">©</span> 2024 Bagri_Tanmay. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Embedded JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenuBtn.classList.remove('active');
+            });
+        });
+        
+        // Form submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real application, you would send this data to a server
+            // For this demo, we'll just show an alert
+            alert(`Thank you for your message, ${name}! I'll get back to you soon.`);
+            
+            // Reset form
+            contactForm.reset();
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if(window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
